@@ -1,5 +1,6 @@
 # A simple script that takes a photo with libcamera and uploads to S3.
 # Verified working with HQ camera.
+# crontab: 0 * * * * /home/pi/timelapse.sh >> /home/pi/timelapse.log 2>&1
 
 #!/bin/bash
 
